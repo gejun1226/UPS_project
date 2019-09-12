@@ -6,7 +6,7 @@
 #' @param annofile_name: The name of the comment file which is downloaded from GDC.
 #' @param path: The path to the all files.
 #' @param type: Data type (Count or FPKM).
-#' @return Merged data, which can do the downstream analysis.
+#' @return Merged data, which can be used to do the downstream analysis.
 GetCptacRNAseqData <- function(folder_name="gdc_download", annofile_name = "gdc_sample_sheet.tsv",path="...",type="FPKM"){
   
       setwd(path)
