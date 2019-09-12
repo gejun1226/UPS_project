@@ -1,7 +1,7 @@
 #' GetCptacRNAseqData: Together the RNAseq data(Count,FPKM) from NCI Genomic Data Commons (GDC)
 #' @description : UCEC,Kidney and Lung cancer RNAseq data are stored in the NCI Genomic Data Commons (GDC).
-#'               The data which we get from the GDC are separately.We can use GetCptacRNAseqData
-#'               to merged the data into one set and transform the "ensembl_gene_id_version" to "hgnc_symbol".
+#'               The data which we get from the GDC is separate.We can use GetCptacRNAseqData function
+#'               to merge the data into one set and transform the "ensembl_gene_id_version" to "hgnc_symbol".
 #' @param folder_name: The name of your folder，where stores the count(or FPKM) data downloaded from GDC.
 #' @param annofile_name: The name of the comment file which is downloaded from GDC.
 #' @param path: The path to the all files.
